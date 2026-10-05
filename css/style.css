@@ -23,12 +23,13 @@ h2{
 }
 .banco{
     margin-left: 600px;
-    border: 1px solid rgba(65, 65, 65, 0.53);
+    border: 0.1px solid rgba(135, 135, 135, 0.53);
     border-radius: 5px;
     width:500px;
     height: 350px;
     margin-top: -90px;
     align-items: center;
+    margin-bottom: 20px;
 }
 .zero0{
     margin-left: 50px;
@@ -59,23 +60,55 @@ h2{
     height: 40px;
     margin-left: 50px;
     margin-bottom: 20px;
-    transition: 0,10s;
+    transition: 0.3s;
 }
 .conta:hover{
-    transform: translateY(-5px);
-    
+    transform: translateY(-1px);
     background-color: #009dff3c;
 }
 .fazer{
     margin-left: 50px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    border-radius: px;
+    border: 0.5px solid rgb(21, 17, 17);
+    border-radius: 5px;
     width: 400px;
     height: 40px;
-
+    transition: 0.3s;
+}
+.fazer:hover{
+    transform: translateY(-1px);
+    background-color: #009dff3c;
 }
 p{
     margin-left: 50px;
     margin-top: 10px;
+}
+
+.p1{
+    gap: 60px;
+}
+
+footer{
+   background-color:#f8f8f8;
+   padding: 20px;
+   font-size: 11px;
+}
+
+footer {
+   
+}
+.f11{
+    display: flex;
+    gap: 50px;
+    margin-left: 880px;
+    margin-top: -10px;
+    
+}
+.f12{
+    margin-left: 230px;
+    margin-top: -12px;
+}
+.f13{
+    color: blue;
 }
