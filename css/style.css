@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav{
+    background-color: yellow;
+    padding: 1px;
+}
+.mercado{
+    width: 100px;
+    
+    margin-left: 30px;
+}
+main{
+
+}
+h2{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.banco{
+    margin-left: 600px;
+    border: 1px solid rgba(65, 65, 65, 0.53);
+    border-radius: 5px;
+    width:500px;
+    height: 350px;
+    margin-top: -90px;
+    align-items: center;
+}
+.zero0{
+    margin-left: 50px;
+    border: 1px solid rgb(21, 17, 17);
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.Continuar{
+    border: 1px solid rgb(21, 17, 17);
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    width: 400px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.conta{
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 76, 255);
+    width: 400px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    transition: 0,10s;
+}
+.conta:hover{
+    transform: translateY(-5px);
+    
+    background-color: #009dff3c;
+}
+.fazer{
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: px;
+    width: 400px;
+    height: 40px;
+
+}
+p{
+    margin-left: 50px;
+    margin-top: 10px;
+}
